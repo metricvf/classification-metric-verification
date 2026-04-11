@@ -1,0 +1,10 @@
+name = "ManimuruganProofs"
+version = "0.1.0"
+defaultTargets = ["manimuruganproofs"]
+
+[[lean_lib]]
+name = "ManimuruganProofs"
+
+[[lean_exe]]
+name = "manimuruganproofs"
+root = "Main"
