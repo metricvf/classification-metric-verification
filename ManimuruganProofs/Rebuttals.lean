@@ -143,7 +143,7 @@ theorem wa_perclass_precision_numer : 137 * 10000 / 9366 = 146 := by native_deci
 theorem cicids_infiltration_fixed : 36 = 36 := by native_decide
 
 -- Even if they somehow got more Infiltration samples (impossible without
--- data augmentation on TEST set, which would be methodological fraud),
+-- data augmentation on TEST set, which would be methodological wrong),
 -- 96.37% is impossible for n ≤ 192
 theorem no_9637_for_n_le_192 (n : Nat) (k : Nat)
     (hn : 1 ≤ n) (hn_max : n ≤ 192) (_hk : k ≤ n)
@@ -157,7 +157,7 @@ theorem no_9637_for_n_le_192 (n : Nat) (k : Nat)
 /-
   SMOTE or oversampling generates synthetic TRAINING samples.
   It does NOT change the TEST set (doing so would be data leakage
-  and methodological fraud).
+  and methodological error).
 
   Therefore, test-set metrics are still computed on the original
   test samples. The Infiltration class still has ≤ 36 test samples.
