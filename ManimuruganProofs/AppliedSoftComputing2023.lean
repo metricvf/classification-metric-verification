@@ -175,7 +175,7 @@ theorem total_impossible_values : 1 + 15 + 3 = 19 := by native_decide
 theorem total_problematic_values : 3 + 15 + 3 = 21 := by native_decide
 
 -- ============================================================
--- FABRICATED AFFILIATION
+--  AFFILIATION
 -- ============================================================
 
 /-
@@ -183,7 +183,7 @@ theorem total_problematic_values : 3 + 15 + 3 = 21 := by native_decide
     "Department of Electrical and Computer Engineering,
      Oakland University, Rochester, USA"
 
-  Evidence this affiliation is fabricated:
+  Evidence this affiliation is not correct:
   1. Prof. Ganesan's official People page lists 19 PhD students,
      3 MS students, 10 current students — Manimurugan is NOT listed
   2. The People page has NO "Postdoctoral Fellow" category
@@ -193,8 +193,7 @@ theorem total_problematic_values : 3 + 15 + 3 = 21 := by native_decide
   5. All co-authored papers list Manimurugan with University of
      Tabuk affiliation — not Oakland
 
-  Using a fabricated affiliation in a peer-reviewed publication
-  constitutes research misconduct and credential fraud.
+  Using not correct ffiliation in a peer-reviewed publication
 -/
 
 /-
@@ -213,7 +212,7 @@ theorem total_problematic_values : 3 + 15 + 3 = 21 := by native_decide
      Additionally 14pp above state-of-the-art (75-85%)
      [wpbc_acc_impossible]
 
-  4. FABRICATED AFFILIATION: Manimurugan lists Oakland University
+  4. not coorect AFFILIATION: Manimurugan lists Oakland University
      as second affiliation. No institutional record exists.
 
   5. SYSTEMATIC PATTERN: 19 mathematically impossible values
