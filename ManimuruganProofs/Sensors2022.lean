@@ -335,7 +335,7 @@ theorem nearest_above_9915 : 91 * 10000 / 91 = 10000 := by native_decide
   mathematically impossible results (Infiltration 96.37%
   on 36 samples — proven in Basic.lean).
 
-  Pattern: systematically fabricated performance metrics
+  Pattern: systematically not coorect performance metrics
   across multiple papers by the same author network.
 
   Verified by Lean 4 theorem prover (v4.29.0).
