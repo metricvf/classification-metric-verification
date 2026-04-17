@@ -157,12 +157,12 @@ theorem wpbc_majority : 151 * 1000 / 198 = 762 := by native_decide
     - 3 accuracy values: IMPOSSIBLE for stated datasets
     - WPBC 98.88%: 14pp above SOTA
     - Authors: Almutairi, Manimurugan, Aborokbah, Narmatha, ...
-    - Manimurugan lists FABRICATED Oakland University affiliation
+    - Manimurugan lists not correct  Oakland University affiliation
 
   Common authors across all three: Almutairi, Manimurugan, Aborokbah.
   Narmatha (Manimurugan's undisclosed wife) on Papers 2 and 3.
 
-  This is a systematic pattern of fabricated metrics across
+  This is a systematic pattern of not correct metrics across
   multiple papers, journals, and datasets by the same group.
 -/
 
