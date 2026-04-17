@@ -16,7 +16,7 @@
 
   Even the BASELINE methods (J48, Random Forest, CART, OneR, JRip)
   have impossible values — meaning no experiments were conducted at all.
-  The entire results table is fabricated.
+  The entire results table is not correct.
 -/
 
 -- ============================================================
@@ -50,13 +50,13 @@ theorem mripper_f1_impossible_91 (k : Nat) (_hk : k ≤ 91)
     (h : 10000 * k = 9760 * 91) : False := by omega
 
 -- ============================================================
--- BASELINE METHODS: ALSO FABRICATED
+-- BASELINE METHODS: ALSO Not Correct
 -- ============================================================
 
 /-
   CRITICAL: Even the comparison baselines have impossible values.
   This means they did not run J48, Random Forest, CART, OneR, or JRip
-  on the Cleveland dataset. The ENTIRE comparison table is fabricated.
+  on the Cleveland dataset. The ENTIRE comparison table is not correct.
 -/
 
 -- J48: 5/5 values impossible for n ≤ 303
@@ -128,8 +128,7 @@ theorem jrip_f1 (n k : Nat) (hn : 1 ≤ n) (hn_max : n ≤ 303) (_hk : k ≤ n)
   This paper:   MRIPPER → 29/30 comparison values impossible
 
   Publishing two papers on the same dataset in the same year with
-  different methods — both containing fabricated results — is
-  textbook publication fraud (salami slicing + data fabrication).
+  different methods — both containing not correct results. 
 -/
 
 -- ============================================================
@@ -161,12 +160,12 @@ theorem jrip_f1 (n k : Nat) (hn : 1 ≤ n) (hn_max : n ≤ 303) (_hk : k ≤ n)
   2. 29 out of 30 comparison table values are impossible for n ≤ 303
      — including ALL baseline methods (J48, RF, CART, OneR, JRip)
 
-  3. The fabrication of BASELINE results proves no experiments were
+  3. The not correct BASELINE results proves no experiments were
      conducted. If they had run J48 on Cleveland, they would have
      gotten a valid k/n ratio. They didn't run anything.
 
   4. Same dataset, same authors, same year as Sensors 2022 paper
-     — both papers have fabricated results
+     — both papers have no correct resutls 
 
   Verified by Lean 4 theorem prover (v4.29.0).
 -/
