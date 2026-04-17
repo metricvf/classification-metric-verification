@@ -20,7 +20,7 @@
   published results are 75-85%. Additionally, the claimed values
   are mathematically impossible for the most common split ratios.
 
-  CRITICAL: Manimurugan lists a FABRICATED Oakland University
+  CRITICAL: Manimurugan lists a not correct Oakland University
   affiliation in this paper.
 -/
 
