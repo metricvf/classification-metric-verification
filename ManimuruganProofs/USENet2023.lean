@@ -49,7 +49,7 @@ theorem us_acc_impossible (n k : Nat)
 
 -- Mammo Accuracy 98.31%: impossible for any n ≤ 9999
 -- NOTE: This is the SAME value claimed in Sensors 2022 paper
--- (Abnormal Accuracy = 98.31%). Recycled fabricated number.
+-- (Abnormal Accuracy = 98.31%). Recycled not correct number.
 theorem mammo_acc_impossible (n k : Nat)
     (hn : 1 ≤ n) (hn_max : n ≤ 9999) (_hk : k ≤ n)
     (h : 10000 * k = 9831 * n) : False := by omega
