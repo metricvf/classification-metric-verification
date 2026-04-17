@@ -40,7 +40,7 @@
   The correct value is F1 = 73.56%.
   The gap is 18.44 percentage points.
 
-  This is not a rounding error. It is a fabrication.
+  This is not a rounding error.
 
   We prove: if P = 6200 and R = 9043 (in basis points of 10000),
   then 2*P*R / (P+R) < 7400, which is far below the claimed 9200.
@@ -94,7 +94,7 @@ theorem product_gap : 140235600 - 112133200 = 28102400 := by native_decide
   identity, not an empirical result. The reported numbers violate
   the definition of the metric they claim to report.
 
-  At least one of {Precision, Recall, F1} is fabricated.
+  At least one of {Precision, Recall, F1} is not correct.
 
   This paper is co-authored by:
     - Aborokbah (corresponding author, Dean)
