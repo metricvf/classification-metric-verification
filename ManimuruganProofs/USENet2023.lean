@@ -124,7 +124,7 @@ theorem mias_mammo_prec (k : Nat) (_hk : k ≤ 97) (h : 10000 * k = 9882 * 97) :
 theorem mias_mammo_f1 (k : Nat) (_hk : k ≤ 97) (h : 10000 * k = 9905 * 97) : False := by omega
 
 -- ============================================================
--- RECYCLED FABRICATED VALUE: 98.31%
+-- RECYCLED Not Correct VALUE: 98.31%
 -- ============================================================
 
 /-
@@ -135,7 +135,7 @@ theorem mias_mammo_f1 (k : Nat) (_hk : k ≤ 97) (h : 10000 * k = 9905 * 97) : F
   The probability of independently computing the same impossible
   4-digit percentage on two different datasets in two different
   domains is essentially zero. This suggests the authors are
-  recycling fabricated numbers across papers.
+  recycling not correct numbers across papers.
 -/
 
 -- Both values are proven impossible in their respective files:
@@ -166,7 +166,7 @@ theorem mias_mammo_f1 (k : Nat) (_hk : k ≤ 97) (h : 10000 * k = 9905 * 97) : F
     29 impossible values + 2 implausible = 31 problematic values
     across 4 papers, 4 journals, 4+ datasets
 
-  All carrying Saad Almutairi's name.
+ 
   All formally verified by Lean 4 theorem prover.
 -/
 
@@ -186,9 +186,6 @@ theorem cumulative_problematic : 3 + 15 + 3 + 10 = 31 := by native_decide
      That paper reported Recall = 1.02 — a metric > 1.0, which is
      mathematically impossible by definition.
 
-  3. The 2016 IJCSIS paper (predatory journal, Beall's List)
-     establishes that Almutairi-Manimurugan collaboration began
-     in a pay-to-publish venue 7 years before these papers.
 
   Verified by Lean 4 theorem prover (v4.29.0).
 -/
